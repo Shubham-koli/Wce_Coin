@@ -1,0 +1,9 @@
+Building Wcecoin
+
+See doc/readme-qt.rst for instructions on building Wcecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Wcecoin.
+
+See doc/build-*.txt for instructions on building wcecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Wcecoin.
