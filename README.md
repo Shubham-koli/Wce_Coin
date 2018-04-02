@@ -1,8 +1,6 @@
 Wcecoin integration/staging tree
 ================================
 
-http://www.wcecoin.org
-
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2017-2018 Wcecoin Developers
 
@@ -19,7 +17,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Wcecoin client sofware, see http://www.wcecoin.org.
+the Wcecoin client sofware
 
 License
 -------
@@ -36,17 +34,11 @@ their feature or bug fix is ready.
 If it is a simple/trivial/non-controversial change, then one of the Wcecoin
 development team members simply pulls it.
 
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
 
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
-controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/wcecoin-project/wcecoin/tags) are created
-regularly to indicate new official, stable release versions of Wcecoin.
+completely stable. [Tags](https://github.com/Shubham-koli/Wce_Coin/tags) are created
+regularly to indicate new versions of Wcecoin.
 
 Testing
 -------
@@ -71,4 +63,6 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./wcecoin-qt_test
+    OR
+    ./wcecoin-qt
 
